@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Crowdfunding</title>
+</head>
+<body>
+    
+    <nav data-toggled="false" data-transitionable="false">
+        <div id="nav-logo-section" class="nav-section">
+        <a href="#">
+            <i class="fas fa-dumpster-fire"></i>
+        </a>
+        </div>
+        <div id="nav-mobile-section">
+        <div id="nav-link-section" class="nav-section">
+            <a href="#">ABOUT</a>
+            <a href="#">WORK</a>
+        </div>
+        <div id="nav-social-section" class="nav-section">
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <div id="nav-contact-section" class="nav-section">
+            <a href="#">GET IN TOUCH</a>
+        </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+        <span>Menu</span>
+        <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+  
+    <main>
+        <article data-index="0" data-status="active" >
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                    An honest virtue of the past 
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>France invasion commences</h2>
+                <i class="fas fa-plus fa-fw"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fas fa-arrow-left fa-lg"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fas fa-arrow-right fa-lg"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                    A short odyssey about what space means to us 
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Space is awesome</h2>
+                <i class="fas fa-plus fa-fw"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fas fa-arrow-left fa-lg"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fas fa-arrow-right fa-lg"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                    Artistic implementations of cartoon and realism at its finest 
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Cell shaded dreams</h2>
+                <i class="fas fa-plus fa-fw"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fas fa-arrow-left fa-lg"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fas fa-arrow-right fa-lg"></i>
+                </button>
+            </div>
+        </article data-index="3" data-status="inactive">
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                    Why exhibitions are getting less and less popular 
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Art exhibitions redacted</h2>
+                <i class="fas fa-plus fa-fw"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fas fa-arrow-left fa-lg"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fas fa-arrow-right fa-lg"></i>
+                </button>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
